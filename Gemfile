@@ -8,8 +8,7 @@ gem "rails", "~> 7.1.3", ">= 7.1.3.2"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
-# Use sqlite3 as the database for Active Recor
-gem "~> 1.4"
+# Use sqlite3 as the database for Active Reco
 group :development do
   gem "sqlite3"
 end
@@ -72,3 +71,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "dockerfile-rails", ">= 1.6", :group => :development
