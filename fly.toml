@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for railsgirls-sparkling-river-8751 on 2024-03-24T09:11:17+09:00
+# fly.toml app configuration file generated for railsgirls-young-feather-1551 on 2024-03-26T22:54:02+09:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'railsgirls-sparkling-river-8751'
+app = 'railsgirls-young-feather-1551'
 primary_region = 'nrt'
 console_command = '/rails/bin/rails console'
 
